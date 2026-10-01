@@ -17,7 +17,7 @@
     </li>
 
     <li class="nav-item">
-        <a href="{{ route('home.pages.crlv.index') }}">
+        <a href="{{ route('home.pages.atpve.index') }}">
             <i class="fas fa-layer-group"></i>
             <p>Emitir ATPV-e</p>
             {{-- <span class="caret"></span> --}}
