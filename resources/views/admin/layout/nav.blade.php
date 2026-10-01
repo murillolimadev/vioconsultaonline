@@ -1,5 +1,5 @@
 <ul class="nav nav-secondary">
-    <li class="nav-item">
+    {{-- <li class="nav-item">
         <a data-bs-toggle="collapse" href="#dashboard" class="collapsed" aria-expanded="false">
             <i class="fas fa-home"></i>
             <p>Dashboard</p>
@@ -14,7 +14,7 @@
                 </li>
             </ul>
         </div>
-    </li>
+    </li> --}}
 
     <li class="nav-item">
         <a href="{{ route('home.pages.atpve.index') }}">
