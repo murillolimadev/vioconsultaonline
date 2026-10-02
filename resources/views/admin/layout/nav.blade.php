@@ -58,6 +58,7 @@
             </button>
         </form> --}}
         <form action="{{ route('logout') }}" method="post">
+            @csrf
             <button class="btn btn-dark form form-control" type="submit" style="border: 0px">
                 {{ __('Sair') }}
             </button>
