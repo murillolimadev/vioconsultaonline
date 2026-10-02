@@ -50,13 +50,12 @@
 
     </li>
 
-    <li class="nav-item" style="background-color: #000;">
-        <a href="">
-            <i class="fa fa-sign-in"></i>
-            <p style="padding-left: 40px">SAIR</p>
-            <i class="fa fa-sign-out" aria-hidden="true"></i>
-
-        </a>
+    <li class="nav-item" style="text-align: center">
+        <form action="{{ route('logout') }}" method="post">
+            <button class="btn btn-dark form form-control" type="submit" style="border: 0px">
+                {{ __('Log Out') }}
+            </button>
+        </form>
     </li>
 
 </ul>
